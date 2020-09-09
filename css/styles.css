@@ -65,7 +65,72 @@ font-weight: 700;
 }
 
 .barra .navbar li:hover {
-background-color: brown; 
+background-color: brown;
 }
 
 /* main */
+
+main ::after{
+content: '';
+display: table;
+clear: both;
+}
+
+/* colonna sinistra */
+
+.col {
+  float: left;
+  border-radius: 2%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.colsx {
+  width: 20%;
+  height: 600px;
+  margin-right: 5%;
+}
+
+/* colonna centrale */
+
+.colxx {
+  width: 50%;
+  height: 300px;
+  margin-right: 5%;
+}
+
+/* colonna di destra */
+
+.coldx {
+  width: 20%;
+  float: left;
+
+}
+
+.coldown {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 5%;
+
+  }
+
+  /* footer */
+
+  footer::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .base {
+    float: left;
+    border-radius: 2%;
+    margin-top: 20px;
+  }
+
+  .footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+
+  }
