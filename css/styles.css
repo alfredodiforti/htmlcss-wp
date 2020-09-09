@@ -10,7 +10,7 @@ body {
   background-image: url(../img/natural-pattern.png);
 }
 
-#contenitore{
+#contenitore {
   width: 70%;
   margin: auto;
   margin-top: 20px;
@@ -216,7 +216,52 @@ clear: both;
 
   .footer{
     width: 100%;
-    height: 200px;
     background-color: white;
-
   }
+
+  .footertitle {
+    width: 95%;
+    margin: auto;
+  }
+
+  .footertitle p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;
+    text-align: center;
+  }
+
+
+  .linkdirect li {
+    list-style: none;
+  }
+
+  .facebook {
+    float: left;
+    text-align: center;
+    width: 33.333%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: grey;
+    font-size: 30px;
+  }
+
+  .instagram {
+    float: left;
+    text-align: center;
+    width: 33.333%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: grey;
+    font-size: 30px;
+  }
+
+  .twitter {
+    float: left;
+    text-align: center;
+    width: 33.333%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: grey;
+    font-size: 30px;
+    }
