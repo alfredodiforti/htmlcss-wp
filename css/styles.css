@@ -246,6 +246,10 @@ clear: both;
     font-size: 30px;
   }
 
+  .facebook:hover {
+    color: blue;
+  }
+
   .instagram {
     float: left;
     text-align: center;
@@ -256,6 +260,10 @@ clear: both;
     font-size: 30px;
   }
 
+  .instagram:hover {
+    color: purple;
+  }
+
   .twitter {
     float: left;
     text-align: center;
@@ -264,4 +272,8 @@ clear: both;
     margin-bottom: 60px;
     color: grey;
     font-size: 30px;
+    }
+
+    .twitter:hover {
+      color: lightblue;
     }
