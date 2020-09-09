@@ -1,0 +1,11 @@
+/* struttura generale */
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/natural-pattern.png);
+}
