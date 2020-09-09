@@ -17,6 +17,11 @@ body {
   margin-bottom: 20px;
 }
 
+a {
+text-decoration: none;
+color: green;
+}
+
 /* header */
 
 .logotop {
@@ -28,6 +33,7 @@ body {
 
 .logotop img {
 width: 50%;
+padding-top: 50px;
 }
 
 .logotop h2 {
@@ -35,4 +41,24 @@ width: 50%;
   font-family: 'Noto Serif SC', serif;
   color: white;
   text-transform: uppercase;
+}
+
+/* barra navigazione */
+
+.navbar {
+list-style-type: none;
+text-align: center;
+background-color: grey;
+}
+
+.barra .navbar li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.barra .navbar li a {
+line-height: 50px;
+font-family: 'Noto Serif SC', serif;
+text-transform: uppercase;
+color: white;
 }
