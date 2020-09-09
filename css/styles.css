@@ -87,7 +87,6 @@ clear: both;
 
 .colsx {
   width: 20%;
-  height: 600px;
   margin-right: 5%;
 }
 
@@ -95,7 +94,6 @@ clear: both;
 
 .colxx {
   width: 50%;
-  height: 300px;
   margin-right: 5%;
 }
 
@@ -109,10 +107,98 @@ clear: both;
 
 .coldown {
   width: 100%;
-  height: 400px;
   margin-bottom: 5%;
 
   }
+
+  /* contenuto colonna sx */
+
+  .contenutosxheader {
+    content: '';
+    display: table;
+    clear: both;
+    font-family: 'Noto Serif SC', serif;
+    }
+
+    .icon {
+      float: left;
+      width: 20%;
+      text-align: center;
+      color: orange;
+      font-size: 30px;
+    }
+
+    .titlesx {
+      float: left;
+      width: 70%;
+      margin-top: 5px;
+      color: grey;
+      text-align: center;
+
+    }
+
+    .textsx p {
+      font-family: 'Noto Serif SC', serif;
+      padding: 10px;
+    }
+
+    /* contenuto colonna centrale */
+
+    .contenutoxxheader {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .headerino {
+      float: left;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .headerino h2 {
+      font-family: 'Noto Serif SC', serif;
+      color: grey;
+      padding: 20px;
+    }
+
+    .textxx {
+      font-family: 'Noto Serif SC', serif;
+      padding: 30px;
+
+
+    }
+
+    /* contenuto colonna di destra */
+
+    .contenutodx {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .headerinodx {
+      float: left;
+      width: 100%;
+      color: grey;
+      font-family: 'Noto Serif SC', serif;
+      text-align: center;
+      padding: 30px;
+
+
+    }
+
+    .textdx {
+      padding: 20px;
+      font-family: 'Noto Serif SC', serif;
+
+    }
+
+
+
+
+
+
 
   /* footer */
 
