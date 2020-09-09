@@ -9,3 +9,30 @@
 body {
   background-image: url(../img/natural-pattern.png);
 }
+
+#contenitore{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* header */
+
+.logotop {
+  background-image: url(../img/natural-header.jpg);
+  text-align: center;
+  background-size: cover;
+  border: 10px solid white;
+}
+
+.logotop img {
+width: 50%;
+}
+
+.logotop h2 {
+  margin-bottom: 60px;
+  font-family: 'Noto Serif SC', serif;
+  color: white;
+  text-transform: uppercase;
+}
