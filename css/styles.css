@@ -57,8 +57,15 @@ background-color: grey;
 }
 
 .barra .navbar li a {
-line-height: 50px;
+line-height: 60px;
 font-family: 'Noto Serif SC', serif;
 text-transform: uppercase;
 color: white;
+font-weight: 700;
 }
+
+.barra .navbar li:hover {
+background-color: brown; 
+}
+
+/* main */
